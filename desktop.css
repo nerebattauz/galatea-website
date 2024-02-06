@@ -1,0 +1,176 @@
+/* textos generales */
+
+.section-titles{
+    color: var(--naranja);
+    font-family: 'Agrandir', sans-serif;
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+/* nav bar */
+
+nav{
+    height: 52px;
+    background-color: var(--blanco);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.nav-products{
+    display: flex;
+    list-style: none;
+    gap: 2em;
+}
+
+.nav-products :visited{
+    color: var(--negro);
+}
+
+.nav-products :link{
+    color: var(--negro);
+}
+
+.nav-products :hover{
+    color:var(--naranja);
+}
+
+.little-button{
+    text-decoration: none;
+    color: var(--blanco);
+    background-color: var(--naranja);
+    padding: 8px;
+    border-radius: 8px;
+}
+.little-button:hover{
+    background-color: var(--negro);
+}
+
+.burger-menu.fa-solid.fa-bars{
+    display: none;
+}
+
+/* hero */
+
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../assets/main-image.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.main-cont{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: left;
+    padding: 6em 8em;
+    gap: 1em 0;
+    position: relative;
+}
+
+.main-cont::after{
+    content: url(../assets/estrella-amarilla.png);
+    display: flex;
+    transform: scale(0.8);
+    margin: 0 auto 0 auto;
+    position: absolute;
+    align-self: center;
+    bottom: -40px;
+    z-index: 1;
+}
+
+h1{
+    color: var(--naranja);
+    font-family: 'Agrandir', sans-serif;
+    font-size: 4.8em;
+    font-stretch: 40%;
+    line-height: 1em;
+    margin: 0 0 0.2em 0;
+}
+
+h2{
+    margin:0 0 1rem 0;
+    font-size: 1.2rem;
+}
+
+.main-text{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.header-buttons-cont{
+    margin: 1rem 0;
+}
+
+.header-buttons{
+    font-size: 1.2rem;
+    font-weight: 600;
+    background-color: var(--blanco);
+    color: var(--naranja);
+    padding: 8px 16px;
+    text-align: center;
+    border-radius: 8px;
+    margin-right: 1rem;
+}
+
+.header-buttons:hover{
+    color: var(--negro);
+}
+
+/* seccion productos */
+
+.sec-productos{
+    background-color: var(--blanco);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4rem 8rem;
+}
+
+.section-images{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    gap: 32px;
+}
+
+.product-image-cont{
+    width: 20%;
+    height: 20%;
+    margin: 0 0rem 2rem 0;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.product-image{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 8px;
+}
+
+.product-caption{
+    display: none;
+}
+
+.button{
+    background-color: var(--naranja);
+    color: var(--blanco);
+    width: 100%;
+    text-align: center;
+    margin: 0 16px;
+    padding: 8px 30px;
+    border-radius: 8px;
+    font-size: 1.2em;
+}
+
+.button:hover{
+    background-color: var(--negro);
+}

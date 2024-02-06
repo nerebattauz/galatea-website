@@ -1,0 +1,32 @@
+/* styles */
+
+@import url(normalize.css);
+@import url('./mobile.css') screen and (max-width: 750px);
+@import url('./tablet.css') screen and (min-width: 751px) and (max-width: 1023px);
+@import url('./desktop.css') screen and (min-width: 1024px);
+
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@font-face {
+    font-family: 'Agrandir';
+    src: url(./Agrandir.ttf);
+ }
+
+
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    overflow-x: none;
+ }
+
+ :root{
+    --naranja: #FE5D3C;
+    --blanco: #F7F3F2;
+    --rosa: #FE91FE;
+    --negro: #262626;
+    font-family: 'Rubik', sans-serif;
+ }
+

@@ -1,0 +1,36 @@
+paso nuevamente las bases para la entrega del trabajo final
+[12:27]
+Rubrica corrección de TPs:
+-HTML: 
+ 
+Cumple con todos los puntos requeridos en la consigna
+Utiliza etiquetas semánticas apropiadas para cada ocasión
+No hay contenedores de más ni de menos
+Utiliza nombres de clases e IDs descriptivos, con un criterio constante para nombrarlos (si separa las palabras con 2 guiones bajos, lo mantiene siempre así) y siempre en el mismo idioma
+Las imágenes tienen su atributo alt
+Se puede navegar el sitio completo con el teclado
+Los formularios tienen los atributos name, placeholder, id para matchear con el for de las etiquetas label
+Usa hovers y animaciones para agregar interactividad
+Se ve bien en todos los tamaños de pantalla (de celular a monitores grandes)
+Utiliza comentarios para separar las secciones
+
+-CSS: 
+ 
+Es ordenado (comienza por el navbar y finaliza con los estilos del footer, no hay reglas de diferentes secciones mezcladas)
+Hay comentarios designando cada sección estilada
+Maneja bien los conceptos de modelo de caja para asignar el tamaño de los elementos, usa margin, padding, width y height conscientemente
+Maneja bien los conceptos de flexbox para alinear elementos en el espacio
+No hay reglas de más en el css (si las destildo del inspector de elementos, no se modifica nada)
+
+-GIT/Gihtub:
+ 
+Los archivos están organizados en carpetas y tienen nombres claros que siguen siempre el mismo criterio (ejemplo: el icono de instagram se llama icono-instagram y no adjhgd_xxuy2.svg)
+El repositorio comienza con el first-commit y es la plantilla del HTML vacía y el CSS creado únicamente
+Hay un commit por cada sección relevante del proyecto
+Utiliza nombres descriptivos de commits y siempre en el mismo idioma
+Tiene un readme que describe el desarrollo del proyecto y sus características/funcionalidades principales
+
+
+forms, pseudoclases para forms y normales (tipo hover), etc.
+etiquetas seo (meta), todas
+Normalize
