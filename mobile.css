@@ -43,7 +43,7 @@ a{
 
 .hero{
     height: 95dvh;
-    background-image: url(../assets/main-image.png);
+    background-image: url(./assets/main-image.png);
     background-size: cover;
     background-position: right;
     padding: 2rem 20px 4rem 20px;
@@ -60,7 +60,7 @@ a{
 }
 
 .main-cont::after{
-    content: url(../assets/estrella-amarilla.png);
+    content: url(./assets/estrella-amarilla.png);
     display: flex;
     transform: scale(0.6);
     margin: 0 auto 0 auto;
@@ -163,7 +163,7 @@ h1{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(to bottom, #ffffffc8, #ffffffc8), url(../assets/fondo-cielo.jpg);
+    background-image: linear-gradient(to bottom, #ffffffc8, #ffffffc8), url(./assets/fondo-cielo.jpg);
     background-size: cover;
     text-align: center;
 }
@@ -200,7 +200,7 @@ p{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(to bottom, #ffffffc8, #ffffffc8), url(../assets/fondo-cesped.jpg);
+    background-image: linear-gradient(to bottom, #ffffffc8, #ffffffc8), url(./assets/fondo-cesped.jpg);
     background-size: cover;
     text-align: center;
 }
@@ -228,7 +228,7 @@ p{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(to bottom, #ffffffc8, #ffffffc8), url(../assets/fondo-mar.jpg);
+    background-image: linear-gradient(to bottom, #ffffffc8, #ffffffc8), url(./assets/fondo-mar.jpg);
     background-size: cover;
     text-align: center;
 }

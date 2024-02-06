@@ -58,7 +58,7 @@ nav{
 .hero{
     height: 100vh;
     width: 100%;
-    background-image: url(../assets/main-image.png);
+    background-image: url(./assets/main-image.png);
     background-size: cover;
     background-position: center;
 }
@@ -75,7 +75,7 @@ nav{
 }
 
 .main-cont::after{
-    content: url(../assets/estrella-amarilla.png);
+    content: url(./assets/estrella-amarilla.png);
     display: flex;
     transform: scale(0.8);
     margin: 0 auto 0 auto;
