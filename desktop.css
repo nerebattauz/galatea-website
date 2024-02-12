@@ -3,8 +3,13 @@
 .section-titles{
     color: var(--naranja);
     font-family: 'Agrandir', sans-serif;
-    font-size: 2em;
+    font-size: 3em;
     margin-bottom: 0.5em;
+}
+
+p{
+    font-size: 24px;
+    line-height: 2rem;
 }
 
 /* nav bar */
@@ -58,7 +63,7 @@ nav{
 .hero{
     height: 100vh;
     width: 100%;
-    background-image: url(./assets/main-image.png);
+    background-image: linear-gradient(to right, #ffffffa4, 40%, #ffffff00), url(./assets/main-image.png);
     background-size: cover;
     background-position: center;
 }
@@ -173,4 +178,82 @@ h2{
 
 .button:hover{
     background-color: var(--negro);
+}
+
+/* sección stickers */
+.sec-desc-prod{
+    width: 100%;
+    height: 30rem;
+    padding: 4rem 8rem;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sec-desc-prod.stickers{
+    background-image: linear-gradient(to bottom, #ffffffc8, #ffffffc8), url(./assets/fondo-cielo.jpg);
+    background-size: cover;
+}
+
+.text-desc-prod{
+    width: 40%;
+    height: 100;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.img-desc-prod{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+}
+
+.ver-mas{
+    width: 50%;
+    margin: 2rem 0 0 0;
+}
+
+.stickers img{
+    width: 100%;
+    max-width: 25rem;
+    height: auto;
+}
+
+/* sección polaroids */
+
+.sec-desc-prod.polaroids{
+    display: flex;
+    flex-direction: row;
+    background-image: linear-gradient(to bottom, #ffffffc8, #ffffffc8), url(./assets/fondo-cesped.jpg);
+    background-size: cover;
+}
+
+.img-desc-prod.polaroids{
+    width: 60%;
+    display: flex;
+    justify-content: start;
+}
+
+.polaroids img{
+    width: 80%;
+    height: auto;
+    margin: 0 2rem 0 0;
+}
+
+/* sección cuadros */
+
+.sec-desc-prod.cuadros{
+    background-image: linear-gradient(to bottom, #ffffffc8, #ffffffc8), url(./assets/fondo-mar.jpg);
+    background-size: cover;
+    background-position-y: bottom;
+    background-position-x: center;
+}
+
+.cuadros img{
+    width: 100%;
+    max-width: 18rem;
+    display: flex;
+    justify-content: center;
 }

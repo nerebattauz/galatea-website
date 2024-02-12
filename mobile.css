@@ -106,7 +106,7 @@ h1{
     border-radius: 8px;
 }
 
-/* seccion produtos */
+/* seccion productos */
 
 .sec-productos{
     background-color: var(--blanco);
@@ -154,18 +154,42 @@ h1{
     width: 100%;
 }
 
+/* divisor */
+.custom-shape-divider-top-1707403866 {
+
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+
+}
+
+.custom-shape-divider-top-1707403866 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 112px;
+    z-index: 1;
+}
+
+.custom-shape-divider-top-1707403866 .shape-fill {
+    fill: var(--blanco);
+}
+
 /* sección stickers */
 
-.sec-desc-prod.stickers{
+.sec-desc-prod{
     width: 100%;
     padding: 3rem 20px;
+    position: relative;
+    top: -80px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(to bottom, #ffffffc8, #ffffffc8), url(./assets/fondo-cielo.jpg);
+    background-image: linear-gradient(to bottom, #ffffffdf, #ffffffdf), url(./assets/fondo-cesped.jpg);
     background-size: cover;
     text-align: center;
+    height: 90vh;
 }
 
 .ver-mas{
@@ -194,13 +218,7 @@ p{
 /* sección polaroids */
 
 .sec-desc-prod.polaroids{
-    width: 100%;
-    padding: 3rem 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-image: linear-gradient(to bottom, #ffffffc8, #ffffffc8), url(./assets/fondo-cesped.jpg);
+    background-image: linear-gradient(to bottom, #ffffffc8, #ffffffc8), url(./assets/fondo-cielo.jpg);
     background-size: cover;
     text-align: center;
 }
@@ -209,7 +227,6 @@ p{
     width: 100%;
     max-width: 20rem;
     height: auto;
-    margin: 1rem 0;
 }
 
 /* sección cuadros */
@@ -222,13 +239,23 @@ p{
 }
 
 .sec-desc-prod.cuadros{
-    width: 100%;
-    padding: 3rem 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     background-image: linear-gradient(to bottom, #ffffffc8, #ffffffc8), url(./assets/fondo-mar.jpg);
-    background-size: cover;
+    background-size: 100rem ;
+    background-position-y: bottom;
+    background-position-x: center;
+    background-repeat: no-repeat;
     text-align: center;
 }
+
+.cuadros img{
+    width: 100%;
+    max-width: 12rem;
+    height: auto;
+}
+
+/* sección galería */
+
+.sec-galeria{
+    text-align: center;
+}
+
